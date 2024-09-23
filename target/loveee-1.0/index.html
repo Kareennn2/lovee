@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor Infinito</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0e6d6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h1 {
+            color: #7B3F00;
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #5a3700;
+            font-size: 1.5em;
+            max-width: 500px;
+            line-height: 1.6;
+        }
+
+        .heart {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-color: #8B4513;
+            transform: rotate(-45deg);
+            margin: 0 auto;
+        }
+
+        .heart::before,
+        .heart::after {
+            content: "";
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: #8B4513;
+            border-radius: 50%;
+        }
+
+        .heart::before {
+            top: -100px;
+            left: 0;
+        }
+
+        .heart::after {
+            left: 100px;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart"></div>
+    <h1>Te amo demasiado mi amorcito bonito</h1>
+    <p>te agradezco por todo lo bonito que me haces sentir y eres lo mejor que me pasó.Te amo te amo por siempre mi amor bonitoo</p>
+</body>
+</html>
